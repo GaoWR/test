@@ -123,9 +123,20 @@
             <!--<div class="company_introduce time" id="time"></div><span class="company_introduce time1">练习用时</span>-->
             <div class="company_introduce time"><div id = "time">00:40</div><span class="time1">练习用时</span></div>
             <script>
-                var str = document.cookie;
-                document.getElementById('time').innerHTML=str;
-                var keys = document.cookie.match(/[^ =;]+(?=\=)/g);
+                // var str=document.cookie;
+                // console.log(str);
+                // // document.getElementById('time').innerHTML=str;
+                // var keys = document.cookie.match(/[^ =;]+(?=\=)/g);
+
+                var loc = location.href;
+                var n1 = loc.length;//地址的总长度
+                var n2 = loc.indexOf("=");//取得=号的位置
+                var id = decodeURI(loc.substr(n2+1, n1-n2));//从=号后面的内容
+                document.getElementById('time').innerHTML=id;
+
+
+
+
             </script>
             <div class="company_introduce jf">10<span class="jf1">积分</span></div>
 			<h2 class="button"><a href="timu.shtml"><img src="restart.png"></a></h2>
