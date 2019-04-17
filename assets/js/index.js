@@ -180,7 +180,7 @@ var data1 =[ {
              				]
         },{  
              "id" : "3",  
-             "title": "请观看电影片段：<br/><video  id='myVideo'  src='https://boot-video.xuexi.cn/video/1001/p/6321bda42347d8c02a62dfcd3a45364b-3d11c0a676274193ae97f2d853c5dd5e-2.mp4' width='100%' height='100%' controls='controls'></video><br/>这部红色电影的拍摄地是江西，请问这部电影的名字是________？",
+             "title": "请观看电影片段：<br/><video  id='myVideo'  src='https://boot-video.xuexi.cn/video/1001/p/6321bda42347d8c02a62dfcd3a45364b-3d11c0a676274193ae97f2d853c5dd5e-2.mp4' width='100%' height='100%' controls='controls' x5-playsinline='' playsinline='' webkit-playsinline='' poster='' preload='auto'></video><br/>这部红色电影的拍摄地是江西，请问这部电影的名字是________？",
 			 "answer":"《闪闪的红星》",
              "xuanxiang":[
              				"《鸡毛信》",
