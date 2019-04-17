@@ -112,12 +112,12 @@ function TiMu(){
 					// if (a) {
 						//把答题时间str存到cookie中
 
-						document.cookie = str;
+						// document.cookie = str;
 
 						//跳转结果页面
-					console.log(str)
 						// window.location.href = "result.shtml"
-							window.location.href = "result.shtml?"+"txt="+encodeURI(str);
+						//跳转结果页面的地址带上时间参数
+					window.location.href = "result.shtml?"+"time="+encodeURI(str);
 
 					// } else {
 					// }
