@@ -116,7 +116,7 @@ function TiMu(){
 
 						//跳转结果页面
 						// window.location.href = "result.shtml"
-						//跳转结果页面的地址带上时间参数
+						//跳转结果页面并传递时间参数
 					window.location.href = "result.shtml?"+"time="+encodeURI(str);
 
 					// } else {
@@ -191,7 +191,7 @@ var data1 =[ {
              				]
         },{
 			"id" : "4",
-			"title": "请欣赏歌曲片段：<br/><audio  id='musicVideo'  src='http://p3.ifengimg.com/a/2019/0417/e574f7b70f2b5dd.mp3' width='100%' height='100%' controls='controls'></audio><br/>请问这首江西经典歌曲的歌名是________？",
+			"title": "请欣赏歌曲片段：<br/><audio  id='musicVideo'  src='https://p3.ifengimg.com/a/2019/0417/e574f7b70f2b5dd.mp3' width='100%' height='100%' controls='controls'></audio><br/>请问这首江西经典歌曲的歌名是________？",
 			"answer":"《十送红军》",
 			"xuanxiang":[
 							"《十送红军》",
