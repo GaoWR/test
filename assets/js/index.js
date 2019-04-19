@@ -191,7 +191,7 @@ var data1 =[ {
              				]
         },{
 			"id" : "4",
-			"title": "请欣赏歌曲片段：<br/><audio  id='musicVideo'  src='2.mp3' width='100%' height='100%' controls='controls'></audio><br/>请问这首江西经典歌曲的歌名是________？",
+			"title": "请欣赏歌曲片段：<br/><audio  id='musicVideo'  src='http://ad.jxnews.com.cn/lm/2019/sshj.mp3' width='100%' height='100%' controls='controls'></audio><br/>请问这首江西经典歌曲的歌名是________？",
 			"answer":"《十送红军》",
 			"xuanxiang":[
 							"《十送红军》",
