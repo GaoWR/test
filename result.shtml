@@ -20,7 +20,7 @@
 }
 .company{
     width: 100%;
-    margin: 10em auto;
+    /*margin: 10em auto;*/
 	text-align: center;
 }
 			h1 {font-size: 2.5em;}
