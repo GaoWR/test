@@ -75,7 +75,7 @@ function TiMu(){
 	var select1 = 1
 	var frame_left = 0
 	document.querySelector(".entrance-bottom-frame").style.marginLeft = frame_left + "%"
-	document.querySelector(".topic-frameli").innerHTML = "第 " + "<div>" + select1 + "</div>" + "/" + 3 + " 题"
+	document.querySelector(".topic-frameli").innerHTML = "第 " + "<div>" + select1 + "</div>" + "/" + 6 + " 题"
 	for(var i = 0;i<document.querySelectorAll(".entrance-bottom-frame-line-button").length;i++){
 		var temp =i;
 		document.querySelectorAll(".entrance-bottom-frame-line-button")[i].onclick = function(){
@@ -93,7 +93,7 @@ function TiMu(){
 					timu_id++;
 					select1++;
 
-					document.querySelector(".topic-frameli").innerHTML = "第 " + "<div>" + select1 + "</div>" + "/" + 3 + " 题"
+					document.querySelector(".topic-frameli").innerHTML = "第 " + "<div>" + select1 + "</div>" + "/" + 6 + " 题"
 					addClass(document.querySelectorAll(".entrance-bottom-frame-line")[timu_id], active)
 					removeClass(document.querySelectorAll(".entrance-bottom-frame-line")[timu_id - 1], active)
 
@@ -179,8 +179,28 @@ var data1 =[ {
              				"富裕美丽",
              				"加快发展",
              				]
+        },{  
+             "id" : "3",  
+             "title": "请观看电影片段：<br/><video  id='myVideo'  src='//live.v.jxnews.com.cn:5011/vod/82f773711785dea30723cad6996ba342.mp4' width='100%' height='100%' controls='controls' x5-playsinline='' playsinline='' webkit-playsinline='' poster='' preload='auto'></video><br/>这部电影的拍摄地是江西，请问这部电影的名字是________？",
+			 "answer":"《闪闪的红星》",
+             "xuanxiang":[
+             				"《闪闪的红星》",
+             				"《小兵张嘎》",
+             				"《鸡毛信》",
+             				"《三毛流浪记》",
+             				]
         },{
-			"id" : "3",
+			"id" : "4",
+			"title": "请欣赏歌曲片段：<br/><audio  id='musicVideo'  src='//ad.jxnews.com.cn/lm/2019/sshj.mp3' width='100%' height='100%' controls='controls'></audio><br/>请问这首江西经典歌曲的歌名是________？",
+			"answer":"《十送红军》",
+			"xuanxiang":[
+							"《十送红军》",
+							"《红军阿哥你慢慢走》",
+							"《红区干部好作风》",
+							"《红星照我去战斗》",
+			              ]
+		},{
+			"id" : "5",
 			"title": "出自王勃的诗句“落霞与孤鹜齐飞”的下一句?",
 			"answer":"秋水共长天一色",
 			"xuanxiang":[
@@ -189,7 +209,17 @@ var data1 =[ {
 							"轻舟已过万重山",
 							"疑是银河落九天",
 			]
-		}
+		},{
+				"id" : "6",
+				"title": "下面四位江西籍名人，哪一位被誉为“杂交水稻之父”?",
+				"answer":"袁隆平",
+				"xuanxiang":[
+							"欧阳自远",
+							"樊植华",
+							"袁隆平",
+							"饶毅",
+				]
+			}
         ];
         
 
