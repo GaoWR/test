@@ -161,63 +161,63 @@ function hasClass(obj, cls){
 
 var data1 =[ {
              "id" : "1",  
-             "title": "下面哪一个选项是习近平总书记对江西工作提出的重要要求？",
+             "title": "<center>下面哪一个选项是习近平总书记对江西工作提出的重要要求？</center>",
 	         "answer":"新的希望、三个着力、四个坚持",
              "xuanxiang":[
-             				"新的希望、三个着力、四个坚持",
-             				"树牢“四个意识”、坚定“四个自信”、坚决做到“两个维护”",
-             				"增强“四个意识” 坚定“四个自信”",
-             				"深入推进“四个全面”战略布局，紧紧围绕“八个方面”重点任务",
+             				"<center>新的希望、三个着力、四个坚持</center>",
+             				"<center>树牢“四个意识”、坚定“四个自信”、坚决做到“两个维护”</center>",
+             				"<center>增强“四个意识” 坚定“四个自信”</center>",
+             				"<center>深入推进“四个全面”战略布局，紧紧围绕“八个方面”重点任务</center>",
              				]
         },{  
              "id" : "2",  
-             "title": "在中共江西省委十四届六次全体(扩大)会议上，江西省委确定的24字工作方针是“创新引领、改革攻坚、开放提升、绿色崛起、担当实干、________。”",
+             "title": "<center>在中共江西省委十四届六次全体(扩大)会议上，江西省委确定的24字工作方针是“创新引领、改革攻坚、开放提升、绿色崛起、担当实干、________。”</center>",
 	         "answer":"兴赣富民",
              "xuanxiang":[
-             				"兴赣富民",
-             				"砥砺前行",
-             				"富裕美丽",
-             				"加快发展",
+             				"<center>兴赣富民</center>",
+             				"<center>砥砺前行</center>",
+             				"<center>富裕美丽</center>",
+             				"<center>加快发展</center>",
              				]
         },{  
              "id" : "3",  
-             "title": "请观看电影片段：<br/><center><video  id='myVideo'  src='http://live.v.jxnews.com.cn:5011/vod/89b7aad0a15578bf96051068480b80d4.mp4' width='50%' height='50%' controls='controls' ></video></center><br/>这部电影的拍摄地是江西，请问这部电影的名字是________？",
+             "title": "<center>请观看电影片段：</center><br/><center><video  id='myVideo'  src='http://live.v.jxnews.com.cn:5011/vod/89b7aad0a15578bf96051068480b80d4.mp4' width='50%' height='50%' controls='controls' ></video></center><br/><center>这部电影的拍摄地是江西，请问这部电影的名字是________？</center>",
 			 "answer":"《闪闪的红星》",
              "xuanxiang":[
-             				"《闪闪的红星》",
-             				"《小兵张嘎》",
-             				"《鸡毛信》",
-             				"《三毛流浪记》",
+             				"<center>《闪闪的红星》</center>",
+             				"<center>《小兵张嘎》</center>",
+             				"<center>《鸡毛信》</center>",
+             				"<center>《三毛流浪记》</center>",
              				]
         },{
 			"id" : "4",
-			"title": "请欣赏歌曲片段：<br/><audio  id='musicVideo'  src='http://ad.jxnews.com.cn/lm/2019/sshj.mp3' width='100%' height='100%' controls='controls'></audio><br/>请问这首江西经典歌曲的歌名是________？",
+			"title": "<center>请欣赏歌曲片段：</center><br/><center><audio  id='musicVideo'  src='http://ad.jxnews.com.cn/lm/2019/sshj.mp3' width='100%' height='100%' controls='controls'></audio></center><br/><center>请问这首江西经典歌曲的歌名是________？</center>",
 			"answer":"《十送红军》",
 			"xuanxiang":[
-							"《十送红军》",
-							"《红军阿哥你慢慢走》",
-							"《红区干部好作风》",
-							"《红星照我去战斗》",
+							"<center>《十送红军》</center>",
+							"<center>《红军阿哥你慢慢走》</center>",
+							"<center>《红区干部好作风》</center>",
+							"<center>《红星照我去战斗》</center>",
 			              ]
 		},{
 			"id" : "5",
-			"title": "出自王勃的诗句“落霞与孤鹜齐飞”的下一句?",
+			"title": "<center>出自王勃的诗句“落霞与孤鹜齐飞”的下一句?</center>",
 			"answer":"秋水共长天一色",
 			"xuanxiang":[
-							"杨柳共春旗一色",
-							"秋水共长天一色",
-							"轻舟已过万重山",
-							"疑是银河落九天",
+							"<center>杨柳共春旗一色</center>",
+							"<center>秋水共长天一色</center>",
+							"<center>轻舟已过万重山</center>",
+							"<center>疑是银河落九天</center>",
 			]
 		},{
 				"id" : "6",
-				"title": "下面四位江西籍名人，哪一位被誉为“杂交水稻之父”?",
+				"title": "<center>下面四位江西籍名人，哪一位被誉为“杂交水稻之父”?</center>",
 				"answer":"袁隆平",
 				"xuanxiang":[
-							"欧阳自远",
-							"樊植华",
-							"袁隆平",
-							"饶毅",
+							"<center>欧阳自远</center>",
+							"<center>樊植华</center>",
+							"<center>袁隆平</center>",
+							"<center>饶毅</center>",
 				]
 			}
         ];
