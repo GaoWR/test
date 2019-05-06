@@ -113,7 +113,7 @@ html{ max-width:640px; margin:0 auto;}
     </head>
     <body>
         <div class="company">
-            <h3 class="company_name"><img src="fm.png"></h3>
+            <h3 class="company_name"><center><img src="fm.png"></center></h3>
             <h1 class="company_introduce"><img src="pt.png"></h1> 
 			<h2 class="button" ><a href="timu.shtml" ><img src="button.png"></a></h2>
         </div>    
