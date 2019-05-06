@@ -181,7 +181,7 @@ var data1 =[ {
              				]
         },{  
              "id" : "3",  
-             "title": "请观看电影片段：<br/><video  id='myVideo'  src='http://live.v.jxnews.com.cn:5011/vod/89b7aad0a15578bf96051068480b80d4.mp4' width='100%' height='100%' controls='controls' ></video><br/>这部电影的拍摄地是江西，请问这部电影的名字是________？",
+             "title": "请观看电影片段：<br/><center><video  id='myVideo'  src='http://live.v.jxnews.com.cn:5011/vod/89b7aad0a15578bf96051068480b80d4.mp4' width='50%' height='50%' controls='controls' ></video></center><br/>这部电影的拍摄地是江西，请问这部电影的名字是________？",
 			 "answer":"《闪闪的红星》",
              "xuanxiang":[
              				"《闪闪的红星》",
