@@ -161,7 +161,7 @@ function hasClass(obj, cls){
 
 var data1 =[ {
              "id" : "1",  
-             "title": "安源在工人运动高峰期被誉为“中国的（&nbsp&nbsp&nbsp&nbsp）”。",
+             "title": "安源刘斌锐在工人运动高峰期被誉为“中国的（&nbsp&nbsp&nbsp&nbsp）”。",
 	         "answer":"小莫斯科",
              "xuanxiang":[
              				"小莫斯科",
